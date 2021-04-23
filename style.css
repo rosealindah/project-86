@@ -1,42 +1,36 @@
-
-.body_background 
+body
 {
-    background-image: url("https://drive.google.com/file/d/1-hMfzjM02r_h02NDgkQk9WmFTB-ZErBt/view?usp=sharing");
-    background-position: center;
-    background-size: cover;
-}
-#mycanvas
-{
-    border-width:10px;
-    background-color: white; 
-    border-style:ridge;
+	background: rgb(112, 221, 69);
 }
 
-h2
-{
-	border-radius: 10px;
-	width: 200px;
-	padding: 5px;
- }
-h3
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
 {
 	display: inline-block;
+	margin-left: 20px;
 }
-span
+#word
 {
-	color: black;	
+	width: 60%;
 }
-a
+#word_display
 {
-	text-decoration: none;
-	font-size: 20px;
-	padding: 10px;
-    float: left;
-    border-radius: 10px;
+	letter-spacing: 5px;
 }
-#head_info
+#output
 {
-	width: 600px;
-	border-radius: 10px;
-	margin-bottom: 10px;
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
 }
